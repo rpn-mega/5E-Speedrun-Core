@@ -1,0 +1,57 @@
+{
+    "name": "speedruns-09152022-02",
+    "title": "5E Speedruns Core",
+    "description": "A module containing the exported 5E Speedruns Core compendiums.",
+    "version": "1.0.1",
+    "library": "false",
+    "manifestPlusVersion": "1.0.1",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "author": "RPN",
+    "packs": [
+        {
+            "type": "Item",
+            "label": "Speedrun Items",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-items-1663248786540.db",
+            "name": "world-speedrun-items-1663248786540"
+        },
+        {
+            "type": "RollTable",
+            "label": "Speedrun Tables",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-tables-1663248786540.db",
+            "name": "world-speedrun-tables-1663248786540"
+        },
+        {
+            "type": "Actor",
+            "label": "Speedrun Class Templates",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-class-templates-1663248786540.db",
+            "name": "world-speedrun-class-templates-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Racial Features",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-racial-features-1663248786540.db",
+            "name": "world-speedrun-racial-features-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Class Features",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-class-features-1663248786540.db",
+            "name": "world-speedrun-class-features-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Flaws",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-flaws-1663248786540.db",
+            "name": "world-speedrun-flaws-1663248786540"
+        }
+    ],
+    "manifest": "https://rpn-5esr.forge-vtt.com/compendium2module/speedruns-09152022-02/module.json",
+    "download": "https://rpn-5esr.forge-vtt.com/compendium2module/speedruns-09152022-02/module-zip.txt"
+}
