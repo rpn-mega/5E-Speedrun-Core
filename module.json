@@ -1,7 +1,7 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id":"5e-speedrun-base"
+  "title": "5E Speedrun Base",
+  "description": "The core compendiums needed to run a 5E Speedrun session",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
@@ -12,13 +12,13 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Roleplay Network",
+      "url": "",
+      "discord": "MegA#9733"
     }
   ],
   "relationships": {
-    "systems": [],
+    "systems": ["dnd5e"],
     "requires": []
   },
   "esmodules": [
@@ -45,7 +45,7 @@
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://avatars.githubusercontent.com/u/80711415?s=40&u=2bd2c11329468868dc53c669ccaf680d8c128ef3&v=4"
     }
   ]
 }
