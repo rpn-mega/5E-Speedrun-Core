@@ -1,7 +1,7 @@
 {
-  "id":"5e-speedrun-base"
+  "id": "5e-speedrun-base",
   "title": "5E Speedrun Base",
-  "description": "The core compendiums needed to run a 5E Speedrun session",
+  "description ":"The core compendiums needed to run a 5E Speedrun session",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
