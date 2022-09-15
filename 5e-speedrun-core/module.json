@@ -1,0 +1,72 @@
+{
+  "id": "5e-speedrun-core",
+  "name": "5e-speedrun-core",
+  "title": "5E Speedrun Core",
+  "description": "This module contains the core data needed to run 5e Speedruns on Foundry VTT. 5e Speedruns is inspired by the work done by FoxHound (a.k.a Brendan McLeod) and others for use in their Twitch and Youtube Speedrun series. Drawing upon this base, I have modified and enhanced many features of the system in an effort to streamline it for VTT play. This module includes 100 Options for races and 12 different classes which result in a possible 1200 randomly generated characters. Of the 100 races are several \"Novelty\" races such as Horse, Zombie, or Cowboy.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "RPN Mega",
+  "authors": [
+    {
+      "name": "RPN Mega",
+      "discord": "MegA#9733"
+    }
+  ],
+  "packs": [
+        {
+            "type": "Item",
+            "label": "Speedrun Items",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-items-1663248786540.db",
+            "name": "world-speedrun-items-1663248786540"
+        },
+        {
+            "type": "RollTable",
+            "label": "Speedrun Tables",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-tables-1663248786540.db",
+            "name": "world-speedrun-tables-1663248786540"
+        },
+        {
+            "type": "Actor",
+            "label": "Speedrun Class Templates",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-class-templates-1663248786540.db",
+            "name": "world-speedrun-class-templates-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Racial Features",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-racial-features-1663248786540.db",
+            "name": "world-speedrun-racial-features-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Class Features",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-class-features-1663248786540.db",
+            "name": "world-speedrun-class-features-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Flaws",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-flaws-1663248786540.db",
+            "name": "world-speedrun-flaws-1663248786540"
+        }
+    ],,
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}

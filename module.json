@@ -1,51 +1,72 @@
 {
-  "id": "5e-speedrun-base",
-  "title": "5E-Speedrun-Base",
-  "description ":"The core compendiums needed to run a 5E Speedrun session",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "id": "5e-speedrun-core",
+  "name": "5e-speedrun-core",
+  "title": "5E Speedrun Core",
+  "description": "This module contains the core data needed to run 5e Speedruns on Foundry VTT. 5e Speedruns is inspired by the work done by FoxHound (a.k.a Brendan McLeod) and others for use in their Twitch and Youtube Speedrun series. Drawing upon this base, I have modified and enhanced many features of the system in an effort to streamline it for VTT play. This module includes 100 Options for races and 12 different classes which result in a possible 1200 randomly generated characters. Of the 100 races are several \"Novelty\" races such as Horse, Zombie, or Cowboy.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
   },
+  "author": "RPN Mega",
   "authors": [
     {
-      "name": "Roleplay Network",
-      "url": "",
+      "name": "RPN Mega",
       "discord": "MegA#9733"
     }
   ],
-  "relationships": {
-    "systems": ["dnd5e"],
-    "requires": []
-  },
+  "packs": [
+        {
+            "type": "Item",
+            "label": "Speedrun Items",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-items-1663248786540.db",
+            "name": "world-speedrun-items-1663248786540"
+        },
+        {
+            "type": "RollTable",
+            "label": "Speedrun Tables",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-tables-1663248786540.db",
+            "name": "world-speedrun-tables-1663248786540"
+        },
+        {
+            "type": "Actor",
+            "label": "Speedrun Class Templates",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-class-templates-1663248786540.db",
+            "name": "world-speedrun-class-templates-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Racial Features",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-racial-features-1663248786540.db",
+            "name": "world-speedrun-racial-features-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Class Features",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-class-features-1663248786540.db",
+            "name": "world-speedrun-class-features-1663248786540"
+        },
+        {
+            "type": "Item",
+            "label": "Speedrun Flaws",
+            "module": "speedruns-09152022-02",
+            "path": "packs/world-speedrun-flaws-1663248786540.db",
+            "name": "world-speedrun-flaws-1663248786540"
+        }
+    ],,
   "esmodules": [
-    "scripts/module.js"
+    "./scripts/init.js"
   ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars.githubusercontent.com/u/80711415?s=40&u=2bd2c11329468868dc53c669ccaf680d8c128ef3&v=4"
-    }
-  ]
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
 }
